@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вакансия: Гардеробщик</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            background: rgba(0,0,0,0.5);
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+        header p {
+            background: rgba(0,0,0,0.5);
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        header a {
+            display: inline-block;
+            background: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #ff6600;
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #ff6600;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #e65c00;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Вакансия: Гардеробщик</h1>
+    <p>Стабильная работа в дружном коллективе. Удобный график!</p>
+    <a href="#form">Откликнуться</a>
+</header>
+
+<section>
+    <h2>Описание вакансии</h2>
+    <p><strong>Обязанности:</strong></p>
+    <ul>
+        <li>Приём и выдача верхней одежды</li>
+        <li>Сохранность вещей гостей</li>
+        <li>Поддержание чистоты на рабочем месте</li>
+    </ul>
+
+    <p><strong>Требования:</strong></p>
+    <ul>
+        <li>Вежливость и ответственность</li>
+        <li>Аккуратность</li>
+        <li>Опыт работы приветствуется, но не обязателен</li>
+    </ul>
+
+    <p><strong>Условия:</strong></p>
+    <ul>
+        <li>График 2/2 или 5/2</li>
+        <li>Зарплата от 120 000 тг</li>
+        <li>Официальное оформление</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Преимущества работы</h2>
+    <ul>
+        <li>Стабильная зарплата и выплаты без задержек</li>
+        <li>Дружный коллектив</li>
+        <li>Удобное расположение рабочего места</li>
+    </ul>
+</section>
+
+<section id="form">
+    <h2>Оставьте отклик</h2>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="tel" name="phone" placeholder="Ваш телефон" required>
+        <textarea name="experience" placeholder="Опыт работы" rows="3"></textarea>
+        <button type="submit">Отправить заявку</button>
+    </form>
+</section>
+
+<footer>
+    <p>Контакты: +7 (777) 000-00-00 | email@example.com</p>
+    <p>Адрес: г. Алматы, ул. Примерная, 10</p>
+</footer>
+
+</body>
+</html>
